@@ -2,10 +2,10 @@
 
 export default function Committee() {
   const members = [
-    { name: "Dr. Isabelle Taylor", affiliation: "AOPP, University of Oxford (Chair)" },
-    { name: "Dr. Antonin Knizek", affiliation: "AOPP, University of Oxford" },
+    { name: "Dr Isabelle Taylor", affiliation: "AOPP, University of Oxford (Chair)" },
+    { name: "Dr Antonin Knizek", affiliation: "AOPP, University of Oxford" },
     { name: "Emma Greenough", affiliation: "Department of Earth Sciences, University of Oxford" },
-    { name: "Isamar Cortes", affiliation: "Environmental Change Institute, University of Oxford" },
+    { name: "Dr Isamar Cortes", affiliation: "Environmental Change Institute, University of Oxford" },
     { name: "Alamdar Dashdamirov", affiliation: "Department of Earth Sciences, University of Oxford" },
   ];
 
