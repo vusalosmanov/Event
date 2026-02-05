@@ -33,8 +33,8 @@ export default function Home() {
       {/* Partners Section */}
       <Partners />
 
-        <div className="px-16 max-w-[1300px] mx-auto">
-        <p className=" flex justify-start text-[15px] text-[#4b5c78]">© 2026 OxEO Forum Banner image credit: Joshua Stevens, https://science.nasa.gov/earth/earth-observatory/a-view-of-vesuvius-149298/</p>
+        <div className="px-4 sm:px-8 lg:px-16 max-w-[1300px] mx-auto">
+        <p className=" flex justify-start text-[14px] sm:text-[15px] text-[#4b5c78]">© 2026 OxEO Forum Banner image credit: Joshua Stevens, https://science.nasa.gov/earth/earth-observatory/a-view-of-vesuvius-149298/</p>
       </div>
     </main>
   );

@@ -2,8 +2,8 @@
 
 export default function About() {
   return (
-    <section id="about" className="py-16 px-16 max-w-[1300px] mx-auto">
-      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-8 shadow-lg">
+    <section id="about" className="py-8 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-[1300px] mx-auto">
+      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-6 lg:p-8 shadow-lg">
         <h2 className="text-[20px] font-bold text-[#00162e] mb-4">
           About the Forum
         </h2>

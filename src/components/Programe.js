@@ -17,8 +17,8 @@ export default function Programme() {
   ];
 
   return (
-    <section id="programme" className="py-8 px-16 max-w-[1300px] mx-auto">
-      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-8 shadow-lg">
+    <section id="programme" className="py-8 px-4 sm:px-8 lg:px-16 max-w-[1300px] mx-auto">
+      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-6 lg:p-8 shadow-lg">
         <h2 className="text-[22px] font-bold text-[#00162e] mb-2">
           Programme
         </h2>
@@ -26,24 +26,35 @@ export default function Programme() {
           The programme will be updated on a rolling basis.
         </p>
 
-        {/* Table Header */}
-        <div className="grid grid-cols-[200px_1fr_200px] border-b-2 bg-gray-50 border-[#00162e] pb-2 mb-2">
+        {/* Desktop Table Header - Hidden on Mobile */}
+        <div className="hidden md:grid grid-cols-[150px_1fr_150px] lg:grid-cols-[200px_1fr_200px] border-b-2 bg-gray-50 border-[#00162e] pb-2 mb-2 px-2">
           <span className="text-[13px] font-bold text-[#4b5c78] uppercase tracking-wide">Time</span>
           <span className="text-[13px] font-bold text-[#4b5c78] uppercase tracking-wide">Session</span>
           <span className="text-[13px] font-bold text-[#4b5c78] uppercase tracking-wide">Speaker</span>
         </div>
 
         {/* Table Rows */}
-        {schedule.map((item, index) => (
-          <div 
-            key={index} 
-            className="grid grid-cols-[200px_1fr_200px] py-4 border-b border-[#dfe3eb]"
-          >
-            <span className="text-[15px] text-[#00162e] font-medium">{item.time}</span>
-            <span className="text-[15px] text-[#00162e]">{item.session}</span>
-            <span className="text-[15px] text-[#4b5c78]">{item.speaker}</span>
-          </div>
-        ))}
+        <div className="flex flex-col">
+          {schedule.map((item, index) => (
+            <div 
+              key={index} 
+              className="grid grid-cols-1 md:grid-cols-[150px_1fr_150px] lg:grid-cols-[200px_1fr_200px] py-4 border-b border-[#dfe3eb] gap-2 md:gap-0 px-2"
+            >
+              <div className="flex md:block">
+                <span className="md:hidden font-bold text-[#4b5c78] uppercase text-[11px] w-20 flex-shrink-0">Time:</span>
+                <span className="text-[15px] text-[#00162e] font-medium">{item.time}</span>
+              </div>
+              <div className="flex md:block">
+                <span className="md:hidden font-bold text-[#4b5c78] uppercase text-[11px] w-20 flex-shrink-0">Session:</span>
+                <span className="text-[15px] text-[#00162e]">{item.session}</span>
+              </div>
+              <div className="flex md:block">
+                <span className="md:hidden font-bold text-[#4b5c78] uppercase text-[11px] w-20 flex-shrink-0">Speaker:</span>
+                <span className="text-[15px] text-[#4b5c78]">{item.speaker || "—"}</span>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

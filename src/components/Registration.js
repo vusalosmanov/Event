@@ -2,8 +2,8 @@
 
 export default function Registration() {
   return (
-    <section id="registration" className="py-8 px-16 max-w-[1300px] mx-auto">
-      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-8 shadow-lg">
+    <section id="registration" className="py-8 px-4 sm:px-8 lg:px-16 max-w-[1300px] mx-auto">
+      <div className="bg-white border border-[#dfe3eb] rounded-[15px] p-6 lg:p-8 shadow-lg">
         <h2 className="text-[22px] font-bold text-[#00162e] mb-2">
           Registration
         </h2>
