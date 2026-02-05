@@ -14,6 +14,7 @@ export default function Programme() {
     { time: "15:00 - 15:30", session: "Coffee break", speaker: "" },
     { time: "15:30 - 16:00", session: "Breakout sessions", speaker: "Organizing committee" },
     { time: "16:00 - 18:00", session: "Poster session, drinks reception", speaker: "" },
+    { time: "18:30", session: "Dinner", speaker: "" },
   ];
 
   return (
