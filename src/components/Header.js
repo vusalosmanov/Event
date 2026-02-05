@@ -81,7 +81,7 @@ export default function Header() {
           </div>
 
           {/* Registration Card */}
-          <div className="border-[1px] border-white/20 rounded-lg px-6 py-6 lg:px-8 lg:py-6 w-full lg:min-w-[400px] w-[500px] bg-[#001f41]/50 lg:bg-transparent">
+          <div className="border-[1px] border-white/20 rounded-lg px-6 py-6 lg:px-8 lg:py-6 w-full lg:w-[500px] bg-[#001f41]/50 lg:bg-transparent">
             <div className="mb-5">
               <span className="block text-[14px] lg:text-[15px] font-bold text-white/70 mb-1">Registration</span>
               <a href="#" className="text-white font-bold underline text-[14px] lg:text-[15px] hover:opacity-80">
