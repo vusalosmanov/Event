@@ -3,19 +3,31 @@
 export default function Programme() {
   const schedule = [
     { time: "10:30 - 11:00", session: "Registration", speaker: "" },
-    { time: "11:00 - 11:05", session: "Welcome remarks", speaker: "TBA" },
-    { time: "11:05 - 11:30", session: "Keynote lecture", speaker: "TBA" },
-    { time: "11:30 - 12:00", session: "Contributed talks", speaker: "TBA" },
+    { time: "11:00 - 11:05", session: "Welcome remarks", speaker: "Don Grainger" },
+    { time: "11:05 - 11:30", session: "Keynote lecture", speaker: "Samira Barzin" },
+    { time: "11:30 - 11:40", session: "Contributed talks", speaker: "Rui Song" },
+    { time: "11:40 - 11:50", session: "Contributed talks", speaker: "James Doherty" },
+    { time: "11:50 - 12:00", session: "Contributed talks", speaker: "Becca Tanner" },
     { time: "12:00 - 13:00", session: "Lunch", speaker: "" },
-    { time: "13:00 - 13:30", session: "Keynote lecture", speaker: "TBA" },
-    { time: "13:30 - 14:00", session: "Contributed talks", speaker: "TBA" },
-    { time: "14:00 - 14:10", session: "Short break", speaker: "" },
-    { time: "14:10 - 15:00", session: "Contributed talks", speaker: "TBA" },
-    { time: "15:00 - 15:30", session: "Coffee break", speaker: "" },
-    { time: "15:30 - 16:00", session: "Breakout sessions", speaker: "Organizing committee" },
-    { time: "16:00 - 18:00", session: "Poster session, drinks reception", speaker: "" },
+    { time: "13:00 - 13:10", session: "Contributed talks", speaker: "Damien Weidmann" },
+    { time: "13:10 - 13:20", session: "Contributed talks", speaker: "Maiurie Rasakulasuriar" },
+    { time: "13:20 - 13:30", session: "Contributed talks", speaker: "Philip Stier" },
+    { time: "13:30 - 14:00", session: "Breakout sessions", speaker: "" },
+    { time: "14:00 - 14:20", session: "Break", speaker: "" },
+    { time: "14:20 - 15:00", session: "Keynote lecture", speaker: "Erwan Rivault" },
+    { time: "15:00 - 15:10", session: "Contributed talks", speaker: "Richard Walker" },
+    { time: "15:10 - 15:20", session: "Contributed talks", speaker: "Amy Morgan" },
+    { time: "15:20 - 15:50", session: "Coffee break", speaker: "" },
+    { time: "15:50 - 16:00", session: "Contributed talks", speaker: "Rebekah Rhodes" },
+    { time: "16:10 - 16:20", session: "Contributed talks", speaker: "Elisa Carboni" },
+    { time: "16:20 - 16:30", session: "Contributed talks", speaker: "Nick Everard" },
+    { time: "16:30 - 16:40", session: "Contributed talks", speaker: "Kendall Jeffreys" },
+    { time: "16:40 - 16:50", session: "Contributed talks", speaker: "Pirta Palola" },
+    { time: "16:50 - 17:00", session: "Closing remarks", speaker: "Isabelle Taylor" },
+    { time: "17:00 - 18:00", session: "Poster session, networking", speaker: "" },
     { time: "18:30", session: "Dinner", speaker: "" },
   ];
+
 
   return (
     <section id="programme" className="py-8 px-4 sm:px-8 lg:px-16 max-w-[1300px] mx-auto">
