@@ -6,6 +6,7 @@ import Venue from "@/components/Venue";
 import Committee from "@/components/Committee";
 import Registration from "@/components/Registration";
 import Partners from "@/components/Partners";
+import Posters from "@/components/Posters";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
 
       {/* Programme Section */}
       <Programme />
+
+      {/* Posters Section */}
+      <Posters />
 
       {/* Venue Section */}
       <Venue />

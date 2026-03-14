@@ -3,8 +3,8 @@
 export default function Programme() {
   const schedule = [
     { time: "10:30 - 11:00", session: "Registration", title: "", speaker: "" },
-    { time: "11:00 - 11:05", session: "TBC", title: "", speaker: "Don Grainger" },
-    { time: "11:05 - 11:30", session: "The pivotal importance of EO for government innovation", title: "", speaker: "Samira Barzin" },
+    { time: "11:00 - 11:05", session: "Welcome Remarks", title: "", speaker: "Don Grainger" },
+    { time: "11:05 - 11:30", session: "Keynote speech: The pivotal importance of EO for government innovation ", title: "", speaker: "Samira Barzin" },
     { time: "11:30 - 11:40", session: "Coal plants persist as a large barrier to the global solar energy transition", title: "", speaker: "Rui Song" },
     { time: "11:40 - 11:50", session: "Satellite and AI intelligence to Forecast Harmful Algal Blooms", title: "", speaker: "James Doherty" },
     { time: "11:50 - 12:00", session: "Estimating the intensity of explosive volcanic eruptions using satellite observations of volcanic clouds", title: "", speaker: "Becca Tanner" },
@@ -22,7 +22,7 @@ export default function Programme() {
     { time: "16:10 - 16:20", session: "Evolution of cloud properties and radiative fluxes observed from space", title: "", speaker: "Elisa Carboni" },
     { time: "16:20 - 16:30", session: "The Resolution Revolution: Hi-Res EO for Hydrology", title: "", speaker: "Nick Everard" },
     { time: "16:30 - 16:40", session: "Spectral and structural complexity predict pollination networks in tropical woodland savannas", title: "", speaker: "Kendall Jeffreys" },
-    { time: "16:40 - 16:50", session: "Probabilistic machine learning to advance marine remote sensing", title: "", speaker: "Pirta Palola" },
+    { time: "16:40 - 16:50", session: "Trace gas retrievals at RAL Remote Sensing Group", title: "", speaker: "Richard Siddans" },
     { time: "16:50 - 17:00", session: "Closing Remarks", title: "", speaker: "Isabelle Taylor" },
     { time: "17:00 - 18:00", session: "Poster session, networking", title: "", speaker: "" },
     { time: "18:30 - TBD", session: "location:Jee Saheb", title: "", speaker: "" },
@@ -39,7 +39,6 @@ export default function Programme() {
           The programme will be updated on a rolling basis.
         </p>
 
-        {/* Desktop Table Header - Hidden on Mobile */}
         <div className="hidden md:grid grid-cols-[150px_1fr_200px] lg:grid-cols-[200px_1fr_250px] border-b-2 bg-gray-50 border-[#00162e] pb-2 mb-2 px-2">
           <span className="text-[13px] font-bold text-[#4b5c78] uppercase tracking-wide">Time</span>
           <span className="text-[13px] font-bold text-[#4b5c78] uppercase tracking-wide">Session</span>
