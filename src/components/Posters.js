@@ -5,7 +5,6 @@ export default function Posters() {
     { name: "Isabelle Taylor", title: "Satellite measurements of the La Soufrière eruption columns" },
     { name: "Gabriel Maxemin", title: "Biomass Burning in the Tropics" },
     { name: "Kevin Olsen", title: "Broad Horizons, a new look at our changing planet" },
-    { name: "Brandon VanderBeek", title: "Imaging Geothermal Reservoirs with Seismic Observations" },
     { name: "Robbie Ramsay", title: "The Field Spectroscopy Facility - A Free to Access Lending Library of Ground, UAV, and Underwater Instrumention for Earth Observation" },
     { name: "Emma Greenough", title: "Remote sensing hazard assessment in Kambarata, Kyrgyzstan" },
     { name: "Anu Dudhia", title: "Atmospheric Sounding with IASI" },

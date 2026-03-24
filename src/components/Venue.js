@@ -14,7 +14,7 @@ export default function Venue() {
             Venue
           </h3>
           <p className="text-[15px] text-[#00162e] mb-1">
-            St Hugh&apos;s College, University of Oxford
+            St Hugh&apos;s College (main entrance), University of Oxford
           </p>
           <p className="text-[15px] text-[#4b5c78]">
             St Margaret&apos;s Rd, Oxford OX2 6LE, UK
