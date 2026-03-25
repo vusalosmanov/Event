@@ -9,6 +9,9 @@ export default function Posters() {
     { name: "Emma Greenough", title: "Remote sensing hazard assessment in Kambarata, Kyrgyzstan" },
     { name: "Anu Dudhia", title: "Atmospheric Sounding with IASI" },
     { name: "Antonin Knizek", title: "The Scattering Reference Forward Model" },
+    { name: "Xuyang Bai", title: "A Spatial Self-Organized Simulation Approach for Land Cover Change Modeling" },
+    { name: "Stamatia Doniki", title: "The Harwell TCCON Observatory" },
+    { name: "Meghna Agarwala", title: "Mapping fires in South Asia " },
   ];
 
   return (
